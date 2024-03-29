@@ -67,7 +67,7 @@ export default function RootLayout({
         "potentialAction": { 
         "@type": "SearchAction", 
           "target": "https://bokep-tante.pages.dev/?q={search_term}", 
-            "query": "required name=search_term"}
+            "query-input": "required name=search_term"}
         }
     return (
         <html lang="en" suppressHydrationWarning>
