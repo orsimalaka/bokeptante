@@ -64,9 +64,10 @@ export default function RootLayout({
         "name": `${SITENAME}`,
         "url": "https://bokep-tante.pages.dev",
         "description": "Bokep Tante Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.",
-        "potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint",
-            "urlTemplate":"https://bokep-tante.pages.dev/?q={search_term_string}"},
-            "query-input":"required name=search_term_string"}]
+        "potentialAction": { 
+        "@type": "SearchAction", 
+          "target": "https://bokep-tante.pages.dev/?q={search_term}", 
+            "query-input": "required name=search_term"}]
         }
     return (
         <html lang="en" suppressHydrationWarning>
