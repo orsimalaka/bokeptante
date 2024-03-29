@@ -68,10 +68,10 @@ export default function RootLayout({
             "@type":"SearchAction",
             "target":{
                 "@type":"EntryPoint",
-                "urlTemplate":"https://bokep-tante.pages.dev/?q={search_term_string}"
-            },
-            "query-input":"required name=search_term_string"}
+                "urlTemplate":"https://bokep-tante.pages.dev/?q={search_term_string}",
+             "query-input":"required name=search_term_string"}
             }
+           }
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={font.className}>
