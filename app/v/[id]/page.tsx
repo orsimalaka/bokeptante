@@ -59,7 +59,6 @@ export async function generateMetadata(
             images: [...previousOgImages, image],
             url: `/v/${file.filecode}`,
             type: `article`,
-            site_name: `${file.title}`,
         },
         alternates: {
             canonical: `/v/${file.filecode}`,
