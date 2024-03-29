@@ -112,14 +112,7 @@ const jsonLd = {
                 '@type': 'Person',
                 name: 'admin',
                 url: 'https://bokep-tante.pages.dev'
-              },
-            AggregateRating: {
-            '@type': 'Book',
-            RatingValue: '5',
-            BestRating: '5',
-            WorstRating: '1',
-            Count: '9653'
-        }
+              }
         }
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
