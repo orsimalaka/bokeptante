@@ -88,23 +88,38 @@ const jsonLd = {
         name: `${file.title} - ${SITENAME}`,
         thumbnailUrl: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
-        url: `https://bokep-tante.pages.dev/v/${file.filecode}`,
-        embedUrl: `https://${upstream}/${file.filecode}`,
+        url: `https://bokep-toket.pages.dev/v/${file.filecode}`,
+        embedUrl: `https://${upstream}/e/${file.filecode}`,
         uploadDate: new Date(
             file.uploaded + ".000Z"
-        ).toISOString(),
+        ).toISOString()
         }
         const jsonLd2 = {
         '@context': 'https://schema.org',
-        '@type': 'WebPage',
+        '@type': 'Article',
         headline: `${file.title} - ${SITENAME}`,
         image: file.splash_img,
-        thumbnailUrl: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
-        url: `https://bokep-tante.pages.dev/v/${file.filecode}`,
+        url: `https://bokep-toket.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
+        publisher: {
+            '@type': 'Organization',
+            name: `${SITENAME}`,
+            logo: 'https://bokep-toket.pages.dev/favicon.ico'},
+            author: {
+                '@type': 'Person',
+                name: 'admin',
+                url: 'https://bokep-toket.pages.dev'
+              },
+            AggregateRating: {
+            '@type': 'Book',
+            RatingValue: '5',
+            BestRating: '5',
+            WorstRating: '1',
+            Count: '9653'
+        }
         }
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
