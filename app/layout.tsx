@@ -36,8 +36,8 @@ export default function RootLayout({
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Organization",
+        "id": "https://bokep-tante.pages.dev/#Organization",
         "name": `${SITENAME}`,
-        "tagline": `${SITENAME} - Video Bokep Indo Jepang Barat Viral Terbaru`,
         "description": "Bokep Tante Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.",
         "logo": "https://bokep-tante.pages.dev/favicon.ico",
         "url": "https://bokep-tante.pages.dev",
@@ -54,7 +54,6 @@ export default function RootLayout({
         "name": `${SITENAME}`,
         "id": "https://bokep-tante.pages.dev/#WebPage",
         "url": "https://bokep-tante.pages.dev",
-        "tagline": `${SITENAME} - Video Bokep Indo Jepang Barat Viral Terbaru`,
         "description": "Bokep Tante Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.",
         "image": "https://bokep-tante.pages.dev/favicon.ico",
         "potentialAction":{
@@ -67,7 +66,6 @@ export default function RootLayout({
         "name": `${SITENAME}`,
         "id": "https://bokep-tante.pages.dev/#Website",
         "url": "https://bokep-tante.pages.dev",
-        "tagline": `${SITENAME} - Video Bokep Indo Jepang Barat Viral Terbaru`,
         "description": "Bokep Tante Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.",
         "potentialAction":{
             "@type":"SearchAction",
