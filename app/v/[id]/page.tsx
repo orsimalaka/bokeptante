@@ -58,8 +58,8 @@ export async function generateMetadata(
             description,
             images: [...previousOgImages, image],
             url: `/v/${file.filecode}`,
-            type: `video.other`,
-            videos: `https://${upstream}/e/${file.filecode}`,
+            type: `article`,
+            site_name: `${file.title}`,
         },
         alternates: {
             canonical: `/v/${file.filecode}`,
