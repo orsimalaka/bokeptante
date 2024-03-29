@@ -88,7 +88,7 @@ const jsonLd = {
         name: `${file.title} - ${SITENAME}`,
         thumbnailUrl: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
-        url: `https://bokep-toket.pages.dev/v/${file.filecode}`,
+        url: `https://bokep-tante.pages.dev/v/${file.filecode}`,
         embedUrl: `https://${upstream}/e/${file.filecode}`,
         uploadDate: new Date(
             file.uploaded + ".000Z"
@@ -100,18 +100,18 @@ const jsonLd = {
         headline: `${file.title} - ${SITENAME}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
-        url: `https://bokep-toket.pages.dev/v/${file.filecode}`,
+        url: `https://bokep-tante.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://bokep-toket.pages.dev/favicon.ico'},
+            logo: 'https://bokep-tante.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://bokep-toket.pages.dev'
+                url: 'https://bokep-tante.pages.dev'
               },
             AggregateRating: {
             '@type': 'Book',
