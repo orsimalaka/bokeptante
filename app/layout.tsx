@@ -8,9 +8,22 @@ import { ThemeProvider } from "@/components/theme-provider";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: SITENAME,
+    title: `${SITENAME} - Video Bokep Indo Viral Terbaru`,
     description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
-    metadataBase: new URL("http://localhost:3000/"),
+    metadataBase: new URL("https://bokep-tante.pages.dev"),
+    alternates: {
+        canonical: `/`,
+    },
+    openGraph: {
+        title: `${SITENAME} Video Bokep Indo Jepang Barat Viral Terbaru`,
+        description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
+        url: `/`,
+        type: `website`,
+    },
+    verification: {
+        google: 'p8EFtHt9tNbgpYwgFb_8AQJGlMi4zhMSZMECbqahzFQ',
+        yandex: 'd4de4b15cc80dc14',
+    },
 };
 
 export const runtime = "edge";
