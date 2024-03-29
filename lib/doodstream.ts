@@ -59,7 +59,7 @@ class Doodstream {
         per_page?: number;
         fld_id?: string;
     }) {
-        if (per_page && per_page > 20)
+        if (per_page && per_page > 30)
             throw new Error("per_page cannot be greater than 200");
 
         const data = await this.fetch(
@@ -69,7 +69,7 @@ class Doodstream {
                 per_page: per_page.toString(),
                 fld_id: fld_id.toString(),
             },
-            20
+            30
         );
         return data;
     }
@@ -83,7 +83,7 @@ class Doodstream {
         const data = await this.fetch(
             "/search/videos",
             { search_term: query },
-            20
+            30
         );
         return data;
     }
