@@ -204,14 +204,14 @@ const jsonLd = {
                             />
                         </div>
                         <Link
-                                href={`/c/${folder.fld_id}`}
-                                key={folder.code}
+                                href={`/c/${file.fld_id}`}
+                                key={file.code}
                                 className="w-full"
                                 role="menuitem"
                             >
                                
                                     <p className="text-xl font-semibold">
-                                        {folder.name}
+                                        {file.name}
                                     </p>
                             </Link>
                     </div>
