@@ -203,14 +203,6 @@ const jsonLd = {
                                 file={file}
                             />
                         </div>
-                        <Link
-                                href={`https://bokep-tante.pages.dev/c/${file.fld_id}`}
-                                className="col-span-full md:col-auto lg:col-span-full"
-                            >
-                                <Button className="w-full">
-                                    Bokep Terbaru
-                                </Button>
-                            </Link>
                     </div>
                 </CardContent>
             </Card>
