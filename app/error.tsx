@@ -15,12 +15,7 @@ export default function Error({
     useEffect(() => {
         console.error(error);
     }, [error]);
-export default async function Home({
-    searchParams,
-}: {
-    searchParams: { [key: string]: string | string[] | undefined };
-}) {
-    const page =
+const page =
         (searchParams.page && parseInt(searchParams.page as string)) || 1;
     const per_page =
         (searchParams.per_page && parseInt(searchParams.per_page as string)) ||
@@ -34,7 +29,4 @@ export default async function Home({
         </MessageBox>
         <CardList page={page} per_page={per_page} fld_id={fld_id} />
     );
-};
-    );
 }
-
