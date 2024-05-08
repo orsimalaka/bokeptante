@@ -24,7 +24,7 @@ export default function Error({
         </MessageBox>
     );
 }
-export default async function Home({
+export async function Home({
     searchParams,
 }: {
     searchParams: { [key: string]: string | string[] | undefined };
