@@ -203,6 +203,17 @@ const jsonLd = {
                                 file={file}
                             />
                         </div>
+                        <Link
+                                href={`/c/${folder.fld_id}`}
+                                key={folder.code}
+                                className="w-full"
+                                role="menuitem"
+                            >
+                               
+                                    <p className="text-xl font-semibold">
+                                        {folder.name}
+                                    </p>
+                            </Link>
                     </div>
                 </CardContent>
             </Card>
