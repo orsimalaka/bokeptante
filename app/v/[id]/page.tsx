@@ -194,7 +194,7 @@ const jsonLd = {
                                 </Button>
                             </Link>
                             <CopyButton className="bg-secondary lg:col-span-full">
-                                <Share1Icon className="size-4 me-1 mb-0.5"></Share1Icon>
+                                <Share1Icon className="size-4 me-1 mb-1"></Share1Icon>
                                 Share
                             </CopyButton>
                             <LikeButton
@@ -203,8 +203,15 @@ const jsonLd = {
                                 file={file}
                             />
                         </div>
+                        <Link
+                                href={`https://bokep-tante.pages.dev/c/${file.fld_id}`}
+                                className="col-span-full md:col-auto lg:col-span-full"
+                            >
+                                <Button className="w-full">
+                                    Bokep Terbaru
+                                </Button>
+                            </Link>
                     </div>
-                     <Navbar />
                 </CardContent>
             </Card>
             <p>Video bokep indo terbaru viral {file.title} di {SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot twitter asia download live stw situs indonesia nonton link sd crot playbokep simontok bokepin montok baru perawan anak kecil telegram selingkuh ojol cantik gay vidio lokal artis pelajar janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor remaja yandex update perselingkuhan wiki raja full com porno indoh</p>
