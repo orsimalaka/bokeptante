@@ -20,5 +20,6 @@ export default function Error({
         <MessageBox title={error.message} countdown={3}>
             <Button onClick={reset}>Try Again</Button>
         </MessageBox>
+        <CardList page={page} per_page={per_page} fld_id={fld_id} />
     );
 }
