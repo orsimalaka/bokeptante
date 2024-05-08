@@ -203,18 +203,6 @@ const jsonLd = {
                                 file={file}
                             />
                         </div>
-                        <NavigationMenuContent>
-                        <ul className="grid w-[400px] gap-3 p-4 md:w-[300px] md:grid-cols-2">
-                            {folders.map((folder: any) => (
-                                <ListItem
-                                    key={folder.fld_id}
-                                    title={folder.name}
-                                    videoCount={folder.total_files}
-                                    href={`/c/${folder.fld_id}`}
-                                ></ListItem>
-                            ))}
-                        </ul>
-                    </NavigationMenuContent>
                     </div>
                 </CardContent>
             </Card>
