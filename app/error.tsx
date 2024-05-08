@@ -1,4 +1,7 @@
 "use client"; // Error components must be Client Components
+import CardList from "@/components/card-list";
+import { DEFAULT_PER_PAGE } from "@/lib/constants";
+import SearchCardList from "@/components/search/search-list";
 
 import { Button } from "@/components/ui/button";
 import Center from "@/components/layouts/center";
